@@ -1,0 +1,213 @@
+
+# Creado por https://www.toptal.com/developers/gitignore/api/windows,venv,visualstudiocode,node,virtualenv,git
+# Edite en https://www.toptal.com/developers/gitignore?templates=windows,venv,visualstudiocode,node,virtualenv,git
+
+### Git ###
+# Creado por git para copias de seguridad. Para deshabilitar las copias de seguridad en Git:
+# $ git config --global mergetool.keepBackup false
+* .orig
+
+# Creado por git al usar herramientas de fusión para conflictos
+*.RESPALDO.*
+*.BASE.*
+*.LOCAL.*
+*.REMOTO.*
+* _BACKUP _ *. Txt
+* _BASE _ *. Txt
+* _LOCAL _ *. Txt
+* _REMOTE _ *. Txt
+
+### Nodo ###
+# Registros
+registros
+*.Iniciar sesión
+npm-debug.log *
+yarn-debug.log *
+yarn-error.log *
+lerna-debug.log *
+.pnpm-debug.log *
+
+# Informes de diagnóstico (https://nodejs.org/api/report.html)
+informe. [0-9] *. [0-9] *. [0-9] *. [0-9] *. json
+
+# Datos en tiempo de ejecución
+pids
+* .pid
+*.semilla
+* .pid.lock
+
+# Directorio para librerías instrumentadas generadas por jscoverage / JSCover
+lib-cov
+
+# Directorio de cobertura utilizado por herramientas como estambul
+cobertura
+* .lcov
+
+# cobertura de prueba de Nueva York
+.nyc_output
+
+# Almacenamiento intermedio Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.gruñido
+
+# Directorio de dependencias de Bower (https://bower.io/)
+bower_components
+
+# configuración de node-waf
+.lock-wscript
+
+# Complementos binarios compilados (https://nodejs.org/api/addons.html)
+construir / liberar
+
+# Directorios de dependencias
+módulos_nodo /
+jspm_packages /
+
+# Directorio de dependencia de Snowpack (https://snowpack.dev/)
+web_modules /
+
+# Caché de TypeScript
+* .tsbuildinfo
+
+# Directorio de caché npm opcional
+.npm
+
+# Caché eslint opcional
+.eslintcache
+
+# Caché de micropaquetes
+.rpt2_caché /
+.rts2_cache_cjs /
+.rts2_caché_es /
+.rts2_cache_umd /
+
+# Historial de REPL opcional
+.node_repl_history
+
+# Salida de 'paquete npm'
+* .tgz
+
+# Archivo de integridad del hilo
+.yarn-integridad
+
+# archivo de variables de entorno dotenv
+.env
+.env.test
+.env.production
+
+# caché del paquete de paquetes (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Salida de compilación de Next.js
+.Siguiente
+fuera
+
+# Nuxt.js compila / genera salida
+.nuxt
+dist
+
+# Archivos Gatsby
+.cache/
+# Comente en la línea pública si su proyecto usa Gatsby y no Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# público
+
+# salida de compilación de vuepress
+.vuepress / dist
+
+# Directorios sin servidor
+.servidor /
+
+# Caché de FuseBox
+.caja de fusibles/
+
+# Archivos locales de DynamoDB
+.dynamodb /
+
+# Archivo de puerto TernJS
+.puerto de popa
+
+# Almacena las versiones de VSCode utilizadas para probar las extensiones de VSCode
+.vscode-prueba
+
+# hilo v2
+.yarn / cache
+.yarn / desenchufado
+.yarn / build-state.yml
+.yarn / install-state.gz
+.pnp. *
+
+### Parche de nodo ###
+# Directorios de paquetes web sin servidor
+.webpack /
+
+# Caché de stylelint opcional
+.stylelintcache
+
+# SvelteKit construye / genera salida
+.svelte-kit
+
+### venv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+.Pitón
+[Bb] en
+[Incluyo
+[Ll] ib
+[Ll] ib64
+[Ll] local
+[Ss] cripts
+pyvenv.cfg
+.venv
+pip-selfcheck.json
+
+### VirtualEnv ###
+# Virtualenv
+# http://iamzed.com/2009/05/07/a-primer-on-virtualenv/
+
+### VisualStudioCode ###
+.vscode / *
+! .vscode / settings.json
+! .vscode / tasks.json
+! .vscode / launch.json
+! .vscode / extensions.json
+* .code-espacio de trabajo
+
+# Historial local para el código de Visual Studio
+.historia/
+
+### Parche VisualStudioCode ###
+# Ignorar todo el historial local de archivos
+.historia
+.ionido
+
+# Compatibilidad con el alcance del fragmento de proyecto
+! .vscode / *. fragmentos de código
+
+### Windows ###
+# Archivos de caché de miniaturas de Windows
+Thumbs.db
+Thumbs.db: encriptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Archivo de volcado
+* .stackdump
+
+# Archivo de configuración de carpeta
+[Dd] esktop.ini
+
+# Papelera de reciclaje utilizada en archivos compartidos
+$ RECICLAJE.BIN /
+
+# Archivos de Windows Installer
+*.taxi
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Accesos directos de Windows
+* .lnk
+
+# Fin de https://www.toptal.com/developers/gitignore/api/windows,venv,visualstudiocode,node,virtualenv,git
